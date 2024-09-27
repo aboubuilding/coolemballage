@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home One || Alefox || HTML Template For Organic Food Farming & Agriculture</title>
+ 
     <!-- favicons Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="<?php bloginfo('template_directory'); ?>/assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="<?php bloginfo('template_directory'); ?>/assets/images/favicons/favicon-32x32.png" />
@@ -38,6 +38,8 @@
 
     <!-- template styles -->
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/alefox.css" />
+
+    <?php wp_head(); ?>
 </head>
 
 <body class="custom-cursor">
@@ -54,13 +56,11 @@
             <div class="container">
                 <div class="topbar-one__inner">
                     <ul class="list-unstyled topbar-one__info">
-                        <li class="topbar-one__info__item">
-                            <i class="icofont-wall-clock topbar-one__info__icon"></i>
-                            Mon - Sat 8.00 - 18.00. Sun Closed
-                        </li>
+                        
                         <li class="topbar-one__info__item">
                             <i class="icofont-location-pin topbar-one__info__icon"></i>
-                            27/52 Avenue, NY USA 685.
+                            ABIDJAN TREICHVILLE, RUE 25, AVENUE 23, LOT 534.
+                            05BP457 Abidjan 05
                         </li>
                     </ul><!-- /.list-unstyled topbar-one__info -->
                     <div class="topbar-one__right">
@@ -70,26 +70,14 @@
                                 <i class="fab fa-facebook-f" aria-hidden="true"></i>
                                 <span class="sr-only">Facebook</span>
                             </a>
-                            <a href="https://pinterest.com/">
-                                <i class="fab fa-pinterest-p" aria-hidden="true"></i>
-                                <span class="sr-only">Pinterest</span>
-                            </a>
-                            <a href="https://twitter.com/">
-                                <i class="fab fa-twitter" aria-hidden="true"></i>
-                                <span class="sr-only">Twitter</span>
-                            </a>
+                           
+                           
                             <a href="https://instagram.com/">
                                 <i class="fab fa-instagram" aria-hidden="true"></i>
                                 <span class="sr-only">Instagram</span>
                             </a>
                         </div><!-- /.topbar-one__social -->
-                        <div class="topbar-one__language">
-                            <a href="#"><img src="<?php bloginfo('template_directory'); ?>/assets/images/shapes/flag.png" alt="alefox">EN</a>
-                            <div class="topbar-one__language__dropdown" style="display: none;">
-                                <a href="#"><img src="<?php bloginfo('template_directory'); ?>/assets/images/shapes/flag.png" alt="alefox">EN</a>
-                                <a href="#"><img src="<?php bloginfo('template_directory'); ?>/assets/images/shapes/flag-two.png" alt="alefox">FR</a>
-                            </div>
-                        </div>
+                        
                     </div><!-- /.topbar-one__right -->
                 </div><!-- /.topbar-one__inner -->
             </div><!-- /.container-fluid -->
@@ -107,236 +95,23 @@
                     <nav class="main-header__nav main-menu">
                         <ul class="main-menu__list">
 
-                            <li class="dropdown megamenu">
-                                <a href="index.html">Home</a>
-                                <ul>
-                                    <li>
-                                        <section class="home-showcase">
-                                            <div class="container">
-                                                <div class="home-showcase__inner">
-                                                    <div class="row">
-                                                        <div class="col-md-6 col-lg-3">
-                                                            <div class="demo-one__card">
-                                                                <div class="demo-one__image">
-                                                                    <img src="<?php bloginfo('template_directory'); ?>/assets/images/alefox-landing/home-1.jpg" alt="alefox">
-                                                                    <div class="demo-one__btns">
-                                                                        <a href="index.html" class="alefox-btn demo-one__btn">
-                                                                            <span class="alefox-btn__item"></span>
-                                                                            <span class="alefox-btn__item"></span>
-                                                                            <span class="alefox-btn__item"></span>
-                                                                            <span class="alefox-btn__item"></span>
-                                                                            Multi Page
-                                                                        </a><!-- /.thm-btn demo-one__btn -->
-                                                                        <a href="index-one-page.html" class="alefox-btn demo-one__btn">
-                                                                            <span class="alefox-btn__item"></span>
-                                                                            <span class="alefox-btn__item"></span>
-                                                                            <span class="alefox-btn__item"></span>
-                                                                            <span class="alefox-btn__item"></span>
-                                                                            One Page
-                                                                        </a><!-- /.thm-btn demo-one__btn -->
-                                                                    </div><!-- /.demo-one__btns -->
-                                                                </div><!-- /.demo-one__image -->
-                                                                <div class="demo-one__content">
-                                                                    <h3 class="demo-one__title">
-                                                                        <a href="index.html">Home Page 01</a>
-                                                                    </h3><!-- /.demo-one__title -->
-                                                                </div><!-- /.demo-one__content -->
-                                                            </div><!-- /.demo-one__card -->
-                                                        </div><!-- /.col-md-6 col-lg-3 -->
-                                                        <div class="col-md-6 col-lg-3">
-                                                            <div class="demo-one__card">
-                                                                <div class="demo-one__image">
-                                                                    <img src="<?php bloginfo('template_directory'); ?>/assets/images/alefox-landing/home-2.jpg" alt="alefox">
-                                                                    <div class="demo-one__btns">
-                                                                        <a href="index-2.html" class="alefox-btn demo-one__btn">
-                                                                            <span class="alefox-btn__item"></span>
-                                                                            <span class="alefox-btn__item"></span>
-                                                                            <span class="alefox-btn__item"></span>
-                                                                            <span class="alefox-btn__item"></span>
-                                                                            Multi Page
-                                                                        </a><!-- /.thm-btn demo-one__btn -->
-                                                                        <a href="index-2-one-page.html" class="alefox-btn demo-one__btn">
-                                                                            <span class="alefox-btn__item"></span>
-                                                                            <span class="alefox-btn__item"></span>
-                                                                            <span class="alefox-btn__item"></span>
-                                                                            <span class="alefox-btn__item"></span>
-                                                                            One Page
-                                                                        </a><!-- /.thm-btn demo-one__btn -->
-                                                                    </div><!-- /.demo-one__btns -->
-                                                                </div><!-- /.demo-one__image -->
-                                                                <div class="demo-one__content">
-                                                                    <h3 class="demo-one__title">
-                                                                        <a href="index-2.html">Home Page 02</a>
-                                                                    </h3><!-- /.demo-one__title -->
-                                                                </div><!-- /.demo-one__content -->
-                                                            </div><!-- /.demo-one__card -->
-                                                        </div><!-- /.col-md-6 col-lg-3 -->
-                                                        <div class="col-md-6 col-lg-3">
-                                                            <div class="demo-one__card">
-                                                                <div class="demo-one__image">
-                                                                    <img src="<?php bloginfo('template_directory'); ?>/assets/images/alefox-landing/home-3.jpg" alt="alefox">
-                                                                    <div class="demo-one__btns">
-                                                                        <a href="index-3.html" class="alefox-btn demo-one__btn">
-                                                                            <span class="alefox-btn__item"></span>
-                                                                            <span class="alefox-btn__item"></span>
-                                                                            <span class="alefox-btn__item"></span>
-                                                                            <span class="alefox-btn__item"></span>
-                                                                            Multi Page
-                                                                        </a><!-- /.thm-btn demo-one__btn -->
-                                                                        <a href="index-3-one-page.html" class="alefox-btn demo-one__btn">
-                                                                            <span class="alefox-btn__item"></span>
-                                                                            <span class="alefox-btn__item"></span>
-                                                                            <span class="alefox-btn__item"></span>
-                                                                            <span class="alefox-btn__item"></span>
-                                                                            One Page
-                                                                        </a><!-- /.thm-btn demo-one__btn -->
-                                                                    </div><!-- /.demo-one__btns -->
-                                                                </div><!-- /.demo-one__image -->
-                                                                <div class="demo-one__content">
-                                                                    <h3 class="demo-one__title">
-                                                                        <a href="index-3.html">Home Page 03</a>
-                                                                    </h3><!-- /.demo-one__title -->
-                                                                </div><!-- /.demo-one__content -->
-                                                            </div><!-- /.demo-one__card -->
-                                                        </div><!-- /.col-md-6 col-lg-3 -->
-                                                        <div class="col-md-6 col-lg-3">
-                                                            <div class="demo-one__card">
-                                                                <div class="demo-one__image">
-                                                                    <img src="<?php bloginfo('template_directory'); ?>/assets/images/alefox-landing/home-dark.jpg" alt="alefox">
-                                                                    <div class="demo-one__btns">
-                                                                        <a href="index-dark.html" class="alefox-btn demo-one__btn">
-                                                                            <span class="alefox-btn__item"></span>
-                                                                            <span class="alefox-btn__item"></span>
-                                                                            <span class="alefox-btn__item"></span>
-                                                                            <span class="alefox-btn__item"></span>
-                                                                            View Page
-                                                                        </a><!-- /.thm-btn demo-one__btn -->
-                                                                    </div><!-- /.demo-one__btns -->
-                                                                </div><!-- /.demo-one__image -->
-                                                                <div class="demo-one__content">
-                                                                    <h3 class="demo-one__title">
-                                                                        <a href="index-dark.html">Home Dark</a>
-                                                                    </h3><!-- /.demo-one__title -->
-                                                                </div><!-- /.demo-one__content -->
-                                                            </div><!-- /.demo-one__card -->
-                                                        </div><!-- /.col-md-6 col-lg-3 -->
-                                                    </div><!-- /.row -->
-
-                                                </div><!-- /.home-showcase__inner -->
-                                            </div><!-- /.container -->
-                                        </section>
-                                    </li>
-                                </ul>
+                            <li class="">
+                                <a href="<?php bloginfo('url'); ?>/">Accueil </a>
+                              
                             </li>
 
 
 
                             <li>
-                                <a href="about.html">About</a>
+                                <a href="<?php bloginfo('url'); ?>/">Présentation</a>
                             </li>
-                            <li class="dropdown">
-                                <a href="#">Pages</a>
-                                <ul>
-                                    <li>
-                                        <a href="project.html">Our Project</a>
-                                        <ul>
-                                            <li><a href="project.html">Project Page</a></li>
-                                            <li><a href="project-carousel.html">Project Carousel</a></li>
-                                            <li><a href="project-details.html">Project Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="team.html">Our Team</a>
-                                        <ul>
-                                            <li><a href="team.html">Team Page</a></li>
-                                            <li><a href="team-carousel.html">Team Carousel</a></li>
-                                            <li><a href="team-details.html">Team Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="reviews.html">Testimonials</a></li>
-                                    <li><a href="reviews-carousel.html">Testimonials Carousel</a></li>
-                                    <li><a href="packages.html">Pricing</a></li>
-                                    <li><a href="packages-carousel.html">Pricing Carousel</a></li>
-                                    <li>
-                                        <a href="gallery.html">Gallery</a>
-                                        <ul>
-                                            <li><a href="gallery.html">Gallery Masonry</a></li>
-                                            <li><a href="gallery-filter.html">Gallery Filter</a></li>
-                                            <li><a href="gallery-grid.html">Gallery Grid</a></li>
-                                            <li><a href="gallery-carousel.html">Gallery Carousel</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="faq.html">Faq</a></li>
-                                    <li><a href="login.html">Login</a></li>
-                                    <li><a href="register.html">Register</a></li>
-                                    <li><a href="404.html">404 Error</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#">Services</a>
-                                <ul>
-                                    <li><a href="services.html">Services 01</a></li>
-                                    <li><a href="services-02.html">Services 02</a></li>
-                                    <li><a href="services-carousel.html">Services Carousel</a></li>
-                                    <li><a href="service-d-fresh.html">Always Fresh</a></li>
-                                    <li><a href="service-d-farming.html">Organic Solutions</a></li>
-                                    <li><a href="service-d-organic.html">Organic Product</a></li>
-                                    <li><a href="service-d-agriculture.html">Agriculture Staff</a></li>
-                                    <li><a href="service-d-growth.html">Growth Providing</a></li>
-                                    <li><a href="service-d-plants.html">Decorative Plants</a></li>
-                                </ul>
+                           
+                            <li>
+                                <a href="<?php bloginfo('url'); ?>/">Nos services </a>
                             </li>
 
-                            <li class="dropdown">
-                                <a href="#">Shop</a>
-                                <ul class="sub-menu">
-                                    <li class="dropdown">
-                                        <a href="#">Products</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="products.html">No sidebar</a></li>
-                                            <li><a href="products-left.html">Left sidebar</a></li>
-                                            <li><a href="products-right.html">Right sidebar</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="products-carousel.html">Products carousel</a></li>
-                                    <li><a href="product-details.html">Product details</a></li>
-                                    <li><a href="cart.html">Cart</a></li>
-                                    <li><a href="wishlist.html">Wishlist</a></li>
-                                    <li><a href="checkout.html">Checkout</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#">News</a>
-                                <ul class="sub-menu">
-                                    <li class="dropdown">
-                                        <a href="#">News grid</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="blog-grid.html">No sidebar</a></li>
-                                            <li><a href="blog-grid-left.html">Left sidebar</a></li>
-                                            <li><a href="blog-grid-right.html">Right sidebar</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown">
-                                        <a href="#">News list</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="blog-list.html">No sidebar</a></li>
-                                            <li><a href="blog-list-left.html">Left sidebar</a></li>
-                                            <li><a href="blog-list-right.html">Right sidebar</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="blog-carousel.html">News carousel</a></li>
-                                    <li class="dropdown">
-                                        <a href="#">News details</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="blog-details.html">No sidebar</a></li>
-                                            <li><a href="blog-details-left.html">Left sidebar</a></li>
-                                            <li><a href="blog-details-right.html">Right sidebar</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
                             <li>
-                                <a href="contact.html">Contact</a>
+                                <a href="<?php bloginfo('url'); ?>/">Contact  </a>
                             </li>
                         </ul>
                     </nav><!-- /.main-header__nav -->
@@ -346,25 +121,21 @@
                             <span></span>
                             <span></span>
                         </div><!-- /.mobile-nav__toggler -->
-                        <a href="#" class="search-toggler main-header__search">
-                            <i class="icon-magnifying-glass" aria-hidden="true"></i>
-                            <span class="sr-only">Search</span>
-                        </a><!-- /.search-toggler -->
-                        <a href="cart.html" class="main-header__cart">
-                            <i class="icon-shopping-cart" aria-hidden="true"></i>
-                            <span class="main-header__cart__count">02</span>
-                            <span class="sr-only">Search</span>
-                        </a><!-- /.search-toggler -->
+                        
                         <div class="main-header__right__border"></div>
                         <div class="main-header__call">
                             <div class="main-header__call__icon"><span class="icon-phone-call-two"></span></div>
-                            <div class="main-header__call__title">Requesting a Call:</div>
-                            <a class="main-header__call__text" href="tel:88012365499">+88 0123 654 99</a>
+                            <div class="main-header__call__title">Nous joindre :</div>
+                            <a class="main-header__call__text" href="tel:88012365499">+225 07 77 22 77 48</a>
                         </div><!-- /. main-header__info -->
                     </div><!-- /.main-header__right -->
                 </div><!-- /.main-header__inner -->
             </div><!-- /.container-fluid -->
         </header><!-- /.main-header -->
+
+
+
+
         <!-- main-slider-start -->
         <section class="main-slider-one">
             <div class="main-slider-one__carousel alefox-owl__carousel owl-carousel" data-owl-options='{
@@ -477,80 +248,6 @@
         </section>
         <!-- main-slider-end -->
 
-        <section class="category-one" style="background-image: url(assets/images/shapes/category-bg-1.png);">
-            <div class="category-one__shape" style="background-image: url(assets/images/shapes/category-shape-1.png);"></div>
-            <div class="container">
-                <div class="sec-title text-center">
-
-                    <h6 class="sec-title__tagline bw-split-in-right"><span class="sec-title__tagline__left-leaf" style="background-image: url(assets/images/shapes/leaf.png);"></span>Recently Category<span class="sec-title__tagline__right-leaf" style="background-image: url(assets/images/shapes/leaf.png);"></span></h6><!-- /.sec-title__tagline -->
-
-                    <h3 class="sec-title__title bw-split-in-left">Browse by Category</h3><!-- /.sec-title__title -->
-                </div><!-- /.sec-title -->
-                <div class="category-one__carousel alefox-owl__carousel alefox-owl__carousel--basic-nav owl-carousel owl-theme" data-owl-options='{
-				"items": 1,
-				"margin": 30,
-				"loop": false,
-				"smartSpeed": 700,
-				"nav": false,
-				"navText": ["<span class=\"icofont-bubble-left\"></span>","<span class=\"icofont-bubble-righ\"></span>"],
-				"dots": false,
-				"autoplay": false,
-				"responsive": {
-					"0": {
-						"items": 1
-					},
-					"500": {
-						"items": 2
-					},
-					"768": {
-						"items": 3
-					},
-					"992": {
-						"items": 4
-					},
-					"1200": {
-						"items": 5
-					}
-				}
-			}'>
-                    <div class="item">
-                        <a href="products.html" class="category-one__item">
-                            <span class="category-one__item__icon"><img src="<?php bloginfo('template_directory'); ?>/assets/images/shapes/vegetables.png" alt="alefox"></span>
-                            <span class="category-one__item__text">Vegetables</span>
-                            <span class="category-one__item__bg" style="background-image: url(assets/images/shapes/vegetables.png);"></span>
-                        </a>
-                    </div><!-- iten -->
-                    <div class="item">
-                        <a href="products.html" class="category-one__item">
-                            <span class="category-one__item__icon"><img src="<?php bloginfo('template_directory'); ?>/assets/images/shapes/fruits.png" alt="alefox"></span>
-                            <span class="category-one__item__text">Fresh Fruits</span>
-                            <span class="category-one__item__bg" style="background-image: url(assets/images/shapes/fruits.png);"></span>
-                        </a>
-                    </div><!-- iten -->
-                    <div class="item">
-                        <a href="products.html" class="category-one__item">
-                            <span class="category-one__item__icon"><img src="<?php bloginfo('template_directory'); ?>/assets/images/shapes/salads.png" alt="alefox"></span>
-                            <span class="category-one__item__text">Salads</span>
-                            <span class="category-one__item__bg" style="background-image: url(assets/images/shapes/salads.png);"></span>
-                        </a>
-                    </div><!-- iten -->
-                    <div class="item">
-                        <a href="products.html" class="category-one__item">
-                            <span class="category-one__item__icon"><img src="<?php bloginfo('template_directory'); ?>/assets/images/shapes/grocery.png" alt="alefox"></span>
-                            <span class="category-one__item__text">Grocery</span>
-                            <span class="category-one__item__bg" style="background-image: url(assets/images/shapes/grocery.png);"></span>
-                        </a>
-                    </div><!-- iten -->
-                    <div class="item">
-                        <a href="products.html" class="category-one__item">
-                            <span class="category-one__item__icon"><img src="<?php bloginfo('template_directory'); ?>/assets/images/shapes/beverage.png" alt="alefox"></span>
-                            <span class="category-one__item__text">Beverage</span>
-                            <span class="category-one__item__bg" style="background-image: url(assets/images/shapes/beverage.png);"></span>
-                        </a>
-                    </div><!-- iten -->
-                </div>
-            </div>
-        </section><!-- category-one -->
 
         <section class="about-one">
             <div class="about-one__shape" style="background-image: url(assets/images/resources/about-1-shape-1.png);"></div>
@@ -571,9 +268,9 @@
                         <div class="about-one__content">
                             <div class="sec-title text-left">
 
-                                <h6 class="sec-title__tagline bw-split-in-right"><span class="sec-title__tagline__left-leaf" style="background-image: url(assets/images/shapes/leaf.png);"></span>Our About Us<span class="sec-title__tagline__right-leaf" style="background-image: url(assets/images/shapes/leaf.png);"></span></h6><!-- /.sec-title__tagline -->
+                                
 
-                                <h3 class="sec-title__title bw-split-in-left">This Organic of Agriculture About Food Market.</h3><!-- /.sec-title__title -->
+                                <h3 class="sec-title__title bw-split-in-left">Présentation</h3><!-- /.sec-title__title -->
                             </div><!-- /.sec-title -->
                             <p class="about-one__content__text">
                                 Organic address a range of simply application and infrastructure this of passages of available, but the
@@ -602,52 +299,7 @@
             </div><!-- /.container -->
         </section><!-- /.about-one -->
 
-        <div class="offer-two">
-            <div class="container">
-                <div class="row gutter-y-30">
-                    <div class="col-lg-6 wow fadeInLeft" data-wow-delay="100ms">
-                        <div class="offer-two__item" style="--accent-color: #f6f4ec;">
-                            <div class="offer-two__item__border"></div>
-                            <h5 class="offer-two__item__sub-title">30% Off</h5>
-                            <h3 class="offer-two__item__title">Take Everyday</h3>
-                            <p class="offer-two__item__text">
-                                Consec tetur adipiscing elit<br> tempor incididunt ut.
-                            </p>
-                            <a href="products.html" class="alefox-btn">
-                                <span class="alefox-btn__item"></span>
-                                <span class="alefox-btn__item"></span>
-                                <span class="alefox-btn__item"></span>
-                                <span class="alefox-btn__item"></span>
-                                See More
-                            </a>
-                            <div class="offer-two__item__image">
-                                <img src="<?php bloginfo('template_directory'); ?>/assets/images/resources/offer-2-1.png" alt="alefox">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 wow fadeInRight" data-wow-delay="100ms">
-                        <div class="offer-two__item" style="--accent-color: #e1eff0;">
-                            <div class="offer-two__item__border"></div>
-                            <h5 class="offer-two__item__sub-title">40% Off</h5>
-                            <h3 class="offer-two__item__title">Healthy Organic</h3>
-                            <p class="offer-two__item__text">
-                                Consec tetur adipiscing elit<br> tempor incididunt ut.
-                            </p>
-                            <a href="products.html" class="alefox-btn">
-                                <span class="alefox-btn__item"></span>
-                                <span class="alefox-btn__item"></span>
-                                <span class="alefox-btn__item"></span>
-                                <span class="alefox-btn__item"></span>
-                                See More
-                            </a>
-                            <div class="offer-two__item__image">
-                                <img src="<?php bloginfo('template_directory'); ?>/assets/images/resources/offer-2-2.png" alt="alefox">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- /.container -->
-        </div><!-- /.offer-one -->
+        
 
         <!-- Service Start -->
         <section class="service-one">
@@ -655,12 +307,11 @@
             <div class="container">
                 <div class="sec-title text-center">
 
-                    <h6 class="sec-title__tagline bw-split-in-right"><span class="sec-title__tagline__left-leaf" style="background-image: url(assets/images/shapes/leaf.png);"></span>Our Best Services<span class="sec-title__tagline__right-leaf" style="background-image: url(assets/images/shapes/leaf.png);"></span></h6><!-- /.sec-title__tagline -->
-
-                    <h3 class="sec-title__title bw-split-in-left">We Providing High Quality</h3><!-- /.sec-title__title -->
+                    
+                    <h3 class="sec-title__title bw-split-in-left">Nos services </h3><!-- /.sec-title__title -->
                 </div><!-- /.sec-title -->
                 <div class="row gutter-y-30">
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="00ms">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="00ms">
                         <div class="service-one__item">
                             <div class="service-one__item__content">
                                 <div class="service-one__item__icon">
@@ -682,7 +333,7 @@
                             </div>
                         </div><!-- /.service-item -->
                     </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="50ms">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="50ms">
                         <div class="service-one__item">
                             <div class="service-one__item__content">
                                 <div class="service-one__item__icon">
@@ -704,7 +355,7 @@
                             </div>
                         </div><!-- /.service-item -->
                     </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="100ms">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                         <div class="service-one__item">
                             <div class="service-one__item__content">
                                 <div class="service-one__item__icon">
@@ -726,28 +377,7 @@
                             </div>
                         </div><!-- /.service-item -->
                     </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="150ms">
-                        <div class="service-one__item">
-                            <div class="service-one__item__content">
-                                <div class="service-one__item__icon">
-                                    <span class="icon-farmer"></span>
-                                </div><!-- /.service-icon -->
-                                <h3 class="service-one__item__title">
-                                    <a href="service-d-farming.html">Organic Farming</a>
-                                </h3><!-- /.service-title -->
-                                <p class="service-one__item__text">
-                                    With schools closed in NSW and Victoria, and childcare workers in places.
-                                </p><!-- /.service-text -->
-                                <a href="service-d-farming.html" class="service-one__item__link">
-                                    <i class="icofont-arrow-right"></i>
-                                    Read more
-                                </a>
-                            </div>
-                            <div class="service-one__item__image">
-                                <img src="<?php bloginfo('template_directory'); ?>/assets/images/resources/service-1-4.jpg" alt="alefox">
-                            </div>
-                        </div><!-- /.service-item -->
-                    </div>
+               
                 </div>
                 <div class="service-one__bottom">
                     <div class="row">
@@ -795,241 +425,8 @@
         </section>
         <!-- Service End -->
 
-        <section class="product-one">
-            <div class="container">
-                <div class="sec-title text-center">
+       
 
-                    <h6 class="sec-title__tagline bw-split-in-right"><span class="sec-title__tagline__left-leaf" style="background-image: url(assets/images/shapes/leaf.png);"></span>Recently Added<span class="sec-title__tagline__right-leaf" style="background-image: url(assets/images/shapes/leaf.png);"></span></h6><!-- /.sec-title__tagline -->
-
-                    <h3 class="sec-title__title bw-split-in-left">New Products</h3><!-- /.sec-title__title -->
-                </div><!-- /.sec-title -->
-                <div class="row gutter-y-30">
-                    <div class="col-md-6 col-lg-4 col-xl-3">
-                        <div class="product__item wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='000ms'>
-                            <div class="product__item__img">
-                                <img src="<?php bloginfo('template_directory'); ?>/assets/images/products/product-1-1.png" alt="alefox">
-
-                                <div class="product__item__flash">
-                                    <span class="product__item__flash__off">Sale</span>
-                                </div>
-
-                                <div class="product__item__btn">
-                                    <a href="cart.html"><i class="icon-shopping-cart"></i></a>
-                                    <a href="wishlist.html"><i class="far fa-heart"></i></a>
-                                    <a href="product-details.html"><i class="fas fa-eye"></i></a>
-                                </div>
-                            </div><!-- /.product-image -->
-                            <div class="product__item__content">
-                                <div class="product__item__cats">
-                                    <a href="products.html">Fruits</a>
-                                </div>
-                                <h4 class="product__item__title"><a href="product-details.html">Fresh Orange</a></h4><!-- /.product-title -->
-                                <div class="product__item__price">$10.00</div><!-- /.product-price -->
-                                <div class="product__item__ratings">
-                                    <span class="icofont-star"></span><span class="icofont-star"></span><span class="icofont-star"></span><span class="icofont-star"></span><span class="icofont-star"></span>
-                                </div><!-- /.product-ratings -->
-                            </div><!-- /.product-content -->
-                        </div><!-- /.product-item -->
-                    </div><!-- /.col-md-6 col-lg-4 -->
-                    <div class="col-md-6 col-lg-4 col-xl-3">
-                        <div class="product__item wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='50ms'>
-                            <div class="product__item__img">
-                                <img src="<?php bloginfo('template_directory'); ?>/assets/images/products/product-1-2.png" alt="alefox">
-
-                                <div class="product__item__btn">
-                                    <a href="cart.html"><i class="icon-shopping-cart"></i></a>
-                                    <a href="wishlist.html"><i class="far fa-heart"></i></a>
-                                    <a href="product-details.html"><i class="fas fa-eye"></i></a>
-                                </div>
-                            </div><!-- /.product-image -->
-                            <div class="product__item__content">
-                                <div class="product__item__cats">
-                                    <a href="products.html">Vegetables</a>
-                                </div>
-                                <h4 class="product__item__title"><a href="product-details.html">Red Apple</a></h4><!-- /.product-title -->
-                                <div class="product__item__price">$11.00</div><!-- /.product-price -->
-                                <div class="product__item__ratings">
-                                    <span class="icofont-star"></span><span class="icofont-star"></span><span class="icofont-star"></span><span class="icofont-star"></span><span class="icofont-star"></span>
-                                </div><!-- /.product-ratings -->
-                            </div><!-- /.product-content -->
-                        </div><!-- /.product-item -->
-                    </div><!-- /.col-md-6 col-lg-4 -->
-                    <div class="col-md-6 col-lg-4 col-xl-3">
-                        <div class="product__item wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='100ms'>
-                            <div class="product__item__img">
-                                <img src="<?php bloginfo('template_directory'); ?>/assets/images/products/product-1-3.png" alt="alefox">
-
-                                <div class="product__item__flash">
-                                    <span class="product__item__flash__off">20% Off</span>
-                                </div>
-
-                                <div class="product__item__btn">
-                                    <a href="cart.html"><i class="icon-shopping-cart"></i></a>
-                                    <a href="wishlist.html"><i class="far fa-heart"></i></a>
-                                    <a href="product-details.html"><i class="fas fa-eye"></i></a>
-                                </div>
-                            </div><!-- /.product-image -->
-                            <div class="product__item__content">
-                                <div class="product__item__cats">
-                                    <a href="products.html">Salads</a>
-                                </div>
-                                <h4 class="product__item__title"><a href="product-details.html">Green Lemon</a></h4><!-- /.product-title -->
-                                <div class="product__item__price">$10.00</div><!-- /.product-price -->
-                                <div class="product__item__ratings">
-                                    <span class="icofont-star"></span><span class="icofont-star"></span><span class="icofont-star"></span><span class="icofont-star"></span><span class="icofont-star"></span>
-                                </div><!-- /.product-ratings -->
-                            </div><!-- /.product-content -->
-                        </div><!-- /.product-item -->
-                    </div><!-- /.col-md-6 col-lg-4 -->
-                    <div class="col-md-6 col-lg-4 col-xl-3">
-                        <div class="product__item wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='150ms'>
-                            <div class="product__item__img">
-                                <img src="<?php bloginfo('template_directory'); ?>/assets/images/products/product-1-4.png" alt="alefox">
-
-                                <div class="product__item__btn">
-                                    <a href="cart.html"><i class="icon-shopping-cart"></i></a>
-                                    <a href="wishlist.html"><i class="far fa-heart"></i></a>
-                                    <a href="product-details.html"><i class="fas fa-eye"></i></a>
-                                </div>
-                            </div><!-- /.product-image -->
-                            <div class="product__item__content">
-                                <div class="product__item__cats">
-                                    <a href="products.html">Beverage</a>
-                                </div>
-                                <h4 class="product__item__title"><a href="product-details.html">Organic Avocado</a></h4><!-- /.product-title -->
-                                <div class="product__item__price">$12.00</div><!-- /.product-price -->
-                                <div class="product__item__ratings">
-                                    <span class="icofont-star"></span><span class="icofont-star"></span><span class="icofont-star"></span><span class="icofont-star"></span><span class="icofont-star"></span>
-                                </div><!-- /.product-ratings -->
-                            </div><!-- /.product-content -->
-                        </div><!-- /.product-item -->
-                    </div><!-- /.col-md-6 col-lg-4 -->
-                    <div class="col-md-6 col-lg-4 col-xl-3">
-                        <div class="product__item wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='200ms'>
-                            <div class="product__item__img">
-                                <img src="<?php bloginfo('template_directory'); ?>/assets/images/products/product-1-5.png" alt="alefox">
-
-                                <div class="product__item__flash">
-                                    <span class="product__item__flash__off">Sale</span>
-                                </div>
-
-                                <div class="product__item__btn">
-                                    <a href="cart.html"><i class="icon-shopping-cart"></i></a>
-                                    <a href="wishlist.html"><i class="far fa-heart"></i></a>
-                                    <a href="product-details.html"><i class="fas fa-eye"></i></a>
-                                </div>
-                            </div><!-- /.product-image -->
-                            <div class="product__item__content">
-                                <div class="product__item__cats">
-                                    <a href="products.html">Fruits</a>
-                                </div>
-                                <h4 class="product__item__title"><a href="product-details.html">Watermelon</a></h4><!-- /.product-title -->
-                                <div class="product__item__price">$10.00</div><!-- /.product-price -->
-                                <div class="product__item__ratings">
-                                    <span class="icofont-star"></span><span class="icofont-star"></span><span class="icofont-star"></span><span class="icofont-star"></span><span class="icofont-star"></span>
-                                </div><!-- /.product-ratings -->
-                            </div><!-- /.product-content -->
-                        </div><!-- /.product-item -->
-                    </div><!-- /.col-md-6 col-lg-4 -->
-                    <div class="col-md-6 col-lg-4 col-xl-3">
-                        <div class="product__item wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='250ms'>
-                            <div class="product__item__img">
-                                <img src="<?php bloginfo('template_directory'); ?>/assets/images/products/product-1-6.png" alt="alefox">
-
-                                <div class="product__item__btn">
-                                    <a href="cart.html"><i class="icon-shopping-cart"></i></a>
-                                    <a href="wishlist.html"><i class="far fa-heart"></i></a>
-                                    <a href="product-details.html"><i class="fas fa-eye"></i></a>
-                                </div>
-                            </div><!-- /.product-image -->
-                            <div class="product__item__content">
-                                <div class="product__item__cats">
-                                    <a href="products.html">Grocery</a>
-                                </div>
-                                <h4 class="product__item__title"><a href="product-details.html">Rip Banana</a></h4><!-- /.product-title -->
-                                <div class="product__item__price">$11.00</div><!-- /.product-price -->
-                                <div class="product__item__ratings">
-                                    <span class="icofont-star"></span><span class="icofont-star"></span><span class="icofont-star"></span><span class="icofont-star"></span><span class="icofont-star"></span>
-                                </div><!-- /.product-ratings -->
-                            </div><!-- /.product-content -->
-                        </div><!-- /.product-item -->
-                    </div><!-- /.col-md-6 col-lg-4 -->
-                    <div class="col-md-6 col-lg-4 col-xl-3">
-                        <div class="product__item wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='300ms'>
-                            <div class="product__item__img">
-                                <img src="<?php bloginfo('template_directory'); ?>/assets/images/products/product-1-7.png" alt="alefox">
-
-                                <div class="product__item__flash">
-                                    <span class="product__item__flash__off">20% Off</span>
-                                </div>
-
-                                <div class="product__item__btn">
-                                    <a href="cart.html"><i class="icon-shopping-cart"></i></a>
-                                    <a href="wishlist.html"><i class="far fa-heart"></i></a>
-                                    <a href="product-details.html"><i class="fas fa-eye"></i></a>
-                                </div>
-                            </div><!-- /.product-image -->
-                            <div class="product__item__content">
-                                <div class="product__item__cats">
-                                    <a href="products.html">Salads</a>
-                                </div>
-                                <h4 class="product__item__title"><a href="product-details.html">Strawberry</a></h4><!-- /.product-title -->
-                                <div class="product__item__price">$10.00</div><!-- /.product-price -->
-                                <div class="product__item__ratings">
-                                    <span class="icofont-star"></span><span class="icofont-star"></span><span class="icofont-star"></span><span class="icofont-star"></span><span class="icofont-star"></span>
-                                </div><!-- /.product-ratings -->
-                            </div><!-- /.product-content -->
-                        </div><!-- /.product-item -->
-                    </div><!-- /.col-md-6 col-lg-4 -->
-                    <div class="col-md-6 col-lg-4 col-xl-3">
-                        <div class="product__item wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='350ms'>
-                            <div class="product__item__img">
-                                <img src="<?php bloginfo('template_directory'); ?>/assets/images/products/product-1-8.png" alt="alefox">
-
-                                <div class="product__item__btn">
-                                    <a href="cart.html"><i class="icon-shopping-cart"></i></a>
-                                    <a href="wishlist.html"><i class="far fa-heart"></i></a>
-                                    <a href="product-details.html"><i class="fas fa-eye"></i></a>
-                                </div>
-                            </div><!-- /.product-image -->
-                            <div class="product__item__content">
-                                <div class="product__item__cats">
-                                    <a href="products.html">Grocery</a>
-                                </div>
-                                <h4 class="product__item__title"><a href="product-details.html">Red Mango</a></h4><!-- /.product-title -->
-                                <div class="product__item__price">$12.00</div><!-- /.product-price -->
-                                <div class="product__item__ratings">
-                                    <span class="icofont-star"></span><span class="icofont-star"></span><span class="icofont-star"></span><span class="icofont-star"></span><span class="icofont-star"></span>
-                                </div><!-- /.product-ratings -->
-                            </div><!-- /.product-content -->
-                        </div><!-- /.product-item -->
-                    </div><!-- /.col-md-6 col-lg-4 -->
-                </div><!-- /.row -->
-            </div><!-- /.container -->
-        </section><!-- /.product-one -->
-
-        <section class="video-one">
-            <div class="video-one__bg jarallax" data-jarallax data-speed="0.3" data-imgPosition="50% -100%" style="background-image: url(assets/images/backgrounds/video-bg-1-1.jpg);"></div>
-            <!-- /.video-one__bg -->
-            <div class="video-one__shape" style="background-image: url(assets/images/shapes/video-shape-1.png);"></div>
-            <div class="container">
-                <a href="https://www.youtube.com/watch?v=h9MbznbxlLc" class="video-popup">
-                    <i class="icon-play-button"></i>
-                    <i class="ripple"></i>
-                </a><!-- /.video-one__btn -->
-                <p class="video-one__sub-title">Watch Video Added</p>
-                <h3 class="video-one__title">
-                    This Agriculture Development<br> Leader of Market
-                </h3>
-                <a href="services.html" class="alefox-btn">
-                    <span class="alefox-btn__item"></span>
-                    <span class="alefox-btn__item"></span>
-                    <span class="alefox-btn__item"></span>
-                    <span class="alefox-btn__item"></span>
-                    Discover More
-                </a>
-            </div><!-- /.container -->
-        </section><!-- /.video-one -->
 
         <section class="team-one">
             <div class="container">
