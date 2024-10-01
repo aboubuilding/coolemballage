@@ -1,104 +1,100 @@
 <?php get_header(); ?>
 
 
-    <!-- Start Breadcrumb
-       ============================================= -->
-    <div class="breadcrumb-area shadow dark bg-fixed text-center text-light" style="background-image: url(assets/img/banner/23.jpg);">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12">
-                    <h1>Contact Us</h1>
-                    <ul class="breadcrumb">
-                        <li><a href="<?php bloginfo('url'); ?>/"><i class="fas fa-home"></i> Accueil </a></li>
+<section class="page-header">
+            <div class="page-header__shape-left"></div>
+            <div class="page-header__shape-right"></div>
+            <div class="page-header__bg"></div>
+            <!-- /.page-header__bg -->
+            <div class="container">
+                <h2 class="page-header__title bw-split-in-down">Contact </h2>
+                <ul class="alefox-breadcrumb list-unstyled">
+                    <li><a href="<?php bloginfo('url'); ?>/">Accueil </a></li>
+                    <li><span>Contact</span></li>
+                </ul><!-- /.thm-breadcrumb list-unstyled -->
+            </div><!-- /.container -->
+        </section><!-- /.page-header -->
 
-                        <li class="active">Contact  </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Breadcrumb -->
 
-    <!-- Start Contact Area
-    ============================================= -->
-    <div class="contact-area default-padding">
-        <div class="container">
-            <div class="row">
-                <div class="contact-items bg-contain" style="background-image: url(assets/img/map.svg);">
-                    <div class="col-md-4 address">
-                        <div class="address-items">
-                            <ul class="info">
-                                <li>
-                                    <h4>Adresse </h4>
-                                    <div class="icon"><i class="fas fa-map-marked-alt"></i></div>
-                                    <span>BOUAKE ,<br> QUARTIER AIR FRANCE ,<br> RUE 21</span>
-                                </li>
+   
+   
+<br>
+<br>
+<br>
 
-                                <li>
-                                    <h4>Télephone </h4>
-                                    <div class="icon"><i class="fas fa-phone"></i></div>
-                                    <span>+225 07 48 43 43 88 </span>
-                                </li>
-                                <li>
-                                    <h4>Email</h4>
-                                    <div class="icon"><i class="fas fa-envelope-open"></i> </div>
-                                    <span>contact@jabalientreprise.com<br></span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-8 contact-form">
-                        <h2>Nous contacter </h2>
+        <section class="contact-two">
+            <div class="contact-two__bg" style="background-image: url(<?php bloginfo('template_directory'); ?>/aassets/images/backgrounds/contact-bg-2.jpg);"></div>
+            <div class="contact-two__shape" style="background-image: url(<?php bloginfo('template_directory'); ?>/aassets/images/shapes/contact-2-shape-1.png);"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-xl-5">
+                        <form class="contact-two__form contact-form-validated form-one wow fadeInUp" data-wow-duration="1500ms" action="https://bracketweb.com/alefox-html/inc/sendemail.php">
+                            <div class="sec-title text-center">
 
-                        <form action="" method="POST" class="contact-form">
-                            <div class="col-md-12">
-                                <div class="row">
-                                    <div class="form-group">
-                                        <input class="form-control" id="name" name="name" placeholder="Nom " type="text">
-                                        <span class="alert-error"></span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <input class="form-control" id="email" name="email" placeholder="Email*" type="email">
-                                        <span class="alert-error"></span>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <input class="form-control" id="phone" name="phone" placeholder="Télephone " type="text">
-                                        <span class="alert-error"></span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="row">
-                                    <div class="form-group comments">
-                                        <textarea class="form-control" id="comments" name="comments" placeholder="Votre message  *"></textarea>
+                                <h6 class="sec-title__tagline bw-split-in-right"><span class="sec-title__tagline__left-leaf" style="background-image: url(assets/images/shapes/leaf.png);"></span>Contact Us<span class="sec-title__tagline__right-leaf" style="background-image: url(assets/images/shapes/leaf.png);"></span></h6><!-- /.sec-title__tagline -->
 
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="row">
-                                    <button type="submit" name="submit" id="submit">
-                                        Envoyez  <i class="fa fa-paper-plane"></i>
+                                <h3 class="sec-title__title bw-split-in-left">Nous contacter </h3><!-- /.sec-title__title -->
+                            </div><!-- /.sec-title -->
+                            <div class="form-one__group">
+                                <div class="form-one__control form-one__control--full">
+                                    <input type="text" name="name" placeholder="Name">
+                                </div><!-- /.form-one__control form-one__control--full -->
+                                <div class="form-one__control form-one__control--full">
+                                    <input type="email" name="email" placeholder="Email">
+                                </div><!-- /.form-one__control form-one__control--full -->
+                                <div class="form-one__control form-one__control--full">
+                                    <input type="text" name="address" placeholder="Address">
+                                </div><!-- /.form-one__control form-one__control--full -->
+                                <div class="form-one__control form-one__control--full">
+                                    <input type="text" name="phone" placeholder="Phone">
+                                </div><!-- /.form-one__control form-one__control--full -->
+                                
+                                <div class="form-one__control form-one__control--full">
+                                    <button type="submit" class="alefox-btn">
+                                        <span class="alefox-btn__item"></span>
+                                        <span class="alefox-btn__item"></span>
+                                        <span class="alefox-btn__item"></span>
+                                        <span class="alefox-btn__item"></span>
+                                       Envoyez 
                                     </button>
-                                </div>
-                            </div>
-                            <!-- Alert Message -->
-                            <div class="col-md-12 alert-notification">
-                                <div id="message" class="alert-msg"></div>
-                            </div>
+                                </div><!-- /.form-one__control -->
+                            </div><!-- /.form-one__group -->
                         </form>
                     </div>
+                    <div class="col-md-6 col-xl-7 d-flex align-items-center wow fadeInUp">
+                        <ul class="contact-two__list">
+                            <li class="contact-two__item">
+                                <div class="contact-two__item__icon"><span class="icon-phone-call"></span></div>
+                                <div class="contact-two__item__content">
+                                    <h3 class="contact-two__item__title">Télephone </h3>
+                                    <p class="contact-two__item__text"><a href="tel:+225 07 77 22 77 48">+225 07 77 22 77 48</a></p>
+                                </div>
+                            </li><!-- item -->
+                            <li class="contact-two__item">
+                                <div class="contact-two__item__icon"><span class="icon-email"></span></div>
+                                <div class="contact-two__item__content">
+                                    <h3 class="contact-two__item__title">Email </h3>
+                                    <p class="contact-two__item__text"><a href="mailto:contact@coolemballage.com">contact@coolemballage.com</a></p>
+                                </div>
+                            </li><!-- item -->
+                            <li class="contact-two__item">
+                                <div class="contact-two__item__icon"><span class="icon-location"></span></div>
+                                <div class="contact-two__item__content">
+                                    <h3 class="contact-two__item__title">Adresse </h3>
+                                    <p class="contact-two__item__text"> ABIDJAN TREICHVILLE, RUE 25, AVENUE 23, LOT 534.
+                                    05BP457 Abidjan 05</p>
+                                </div>
+                            </li><!-- item -->
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <!-- End Contact Area -->
+        </section>
+
+        <br>
+<br>
+<br>
+
 
 
 <?php get_footer(); ?>

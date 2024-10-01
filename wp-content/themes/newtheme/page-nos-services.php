@@ -1,37 +1,30 @@
 <?php get_header(); ?>
 
+<section class="page-header">
+            <div class="page-header__shape-left"></div>
+            <div class="page-header__shape-right"></div>
+            <div class="page-header__bg"></div>
+            <!-- /.page-header__bg -->
+            <div class="container">
+                <h2 class="page-header__title bw-split-in-down">Services</h2>
+                <ul class="alefox-breadcrumb list-unstyled">
+                    <li><a href="index.html">Accueil </a></li>
+                    <li><span><?php the_title(); ?></span></li>
+                </ul><!-- /.thm-breadcrumb list-unstyled -->
+            </div><!-- /.container -->
+        </section><!-- /.page-header -->
 
-    <!-- Start Breadcrumb
-        ============================================= -->
-    <div class="breadcrumb-area shadow dark bg-fixed text-center text-light" style="background-image: url(assets/img/banner/4.jpg);">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12">
-                    <h1><?php the_title(); ?></h1>
-                    <ul class="breadcrumb">
-                        <li><a href="#"><i class="fas fa-home"></i> Accueil </a></li>
+        <!-- Service Start -->
+        <section class="service-two">
+            <div class="container">
+                <div class="row gutter-y-30">
 
-                        <li class="active"><?php the_title(); ?></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Breadcrumb -->
 
-    <!-- Start Services
-    ============================================= -->
-    <div class="services-inc-area carousel-shadow default-padding bg-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="services-items services-carousel owl-carousel owl-theme">
-
-<?php
+                <?php
 
 $args = array(
 
-    'post_type'      => 'services',
+    'post_type'      => 'domaine',
     'post_status' => 'publish',
     'orderby' => 'date',
     'order' => 'DESC'
@@ -47,32 +40,39 @@ if( $posts->have_posts() ) :
         $posts->the_post();
         ?>
 
-                        <!-- Single Item -->
-                        <div class="item">
-                            <div class="thumb">
-                                <?php
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-two__item wow fadeInUp" data-wow-delay="00ms">
+
+                        <?php
                                 $idImageAlaUne = get_post_thumbnail_id();
                                 $imgSrc = wp_get_attachment_url($idImageAlaUne);
                                 ?>
-                                <img src="<?php echo $imgSrc ?>" alt="Thumb">
-                                <div class="overlay">
-                                    <a href="<?php the_permalink(); ?>">
-                                        <i class="flaticon-report"></i>
-                                        <h4><?php the_title(); ?></h4>
-                                    </a>
-                                </div>
+
+
+                            <div class="service-two__item__image">
+                                <img src="<?php echo $imgSrc ?>" alt="alefox" style="height: 240px;">
                             </div>
-                            <div class="info">
-                                <p>
-                                    <?php the_excerpt(); ?>
-
-                                </p>
-                                <a href="<?php the_permalink(); ?>">Lire la suite  <i class="fas fa-angle-double-right"></i></a>
+                            <div class="service-two__item__content">
+                                <div class="service-two__item__icon">
+                                    <span class="icon-salad"></span>
+                                </div><!-- /.service-icon -->
+                                <h3 class="service-two__item__title">
+                                    <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+                                </h3><!-- /.service-title -->
+                                <p class="service-two__item__text">
+                                <?php the_excerpt(); ?>
+                                
+                                </p><!-- /.service-text -->
+                                <a href="<?php the_permalink(); ?>" class="service-two__item__link">
+                                    <i class="icofont-arrow-up"></i>
+                                </a>
                             </div>
-                        </div>
+                        </div><!-- /.service-item -->
+                    </div>
 
 
-    <?php
+                    <?php
     endwhile;?>
 
 <?php
@@ -80,14 +80,11 @@ else :
 endif;
 ?>
 
-
-
-                    </div>
+                   
                 </div>
             </div>
-        </div>
-    </div>
-    <!-- End Services -->
+        </section>
+        <!-- Service End -->
 
 
 

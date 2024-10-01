@@ -4,53 +4,50 @@
 
 <?php while (have_posts()) : the_post(); ?>
 
+<section class="page-header">
+            <div class="page-header__shape-left"></div>
+            <div class="page-header__shape-right"></div>
+            <div class="page-header__bg"></div>
+            <!-- /.page-header__bg -->
+            <div class="container">
+                <h2 class="page-header__title bw-split-in-down"><?php the_title(); ?></h2>
+                <ul class="alefox-breadcrumb list-unstyled">
+                    <li><a href="<?php bloginfo('url'); ?>/">Accueil</a></li>
+                    <li><span><?php the_title(); ?></span></li>
+                </ul><!-- /.thm-breadcrumb list-unstyled -->
+            </div><!-- /.container -->
+        </section><!-- /.page-header -->
 
-                <!-- Start Breadcrumb
-                   ============================================= -->
-                <div class="breadcrumb-area shadow dark bg-fixed text-center text-light" style="background-image: url(assets/img/banner/1.jpg);">
-                        <div class="container">
-                                <div class="row">
-                                        <div class="col-lg-12 col-md-12">
-                                                <h1><?php the_title(); ?></h1>
-                                                <ul class="breadcrumb">
-                                                        <li><a href="<?php bloginfo('url'); ?>/"><i class="fas fa-home"></i> Accueil </a></li>
+        <section class="about-one">
+            <div class="about-one__shape" style="background-image: url(assets/images/resources/about-1-shape-1.png);"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="about-one__image wow fadeInLeft" data-wow-delay="200ms">
+                            <img src="<?php bloginfo('template_directory'); ?>/assets/images/accueil/image3.jpg" alt="alefox">
+                           
+                            <div class="about-one__image__three">
+                                <img src="<?php bloginfo('template_directory'); ?>/assets/images/shapes/about-1-brand.png" alt="alefox">
+                            </div>
+                        </div><!-- /.about-one__image -->
+                    </div><!-- /.col-lg-6 -->
+                    <div class="col-lg-6 wow fadeInRight" data-wow-delay="300ms">
+                        <div class="about-one__content">
+                            <div class="sec-title text-left">
 
-                                                        <li class="active"><?php the_title(); ?></li>
-                                                </ul>
-                                        </div>
-                                </div>
-                        </div>
-                </div>
-                <!-- End Breadcrumb -->
+                                <h6 class="sec-title__tagline bw-split-in-right"><span class="sec-title__tagline__left-leaf" style="background-image: url(<?php bloginfo('template_directory'); ?>/assets/images/shapes/leaf.png);"></span><span class="sec-title__tagline__right-leaf" style="background-image: url(assets/images/shapes/leaf.png);"></span></h6><!-- /.sec-title__tagline -->
 
-                <!-- Start Our About
-                ============================================= -->
-                <div class="about-area inc-video default-padding">
-                        <div class="container">
-                                <div class="row">
-                                        <!-- Start About -->
-                                        <div class="about-content">
-                                                <div class="col-md-6 video-info">
-                                                        <div class="thumb">
-                                                                <img src="<?php bloginfo('template_directory'); ?>/assets/img/banner/jabali1.jpg" alt="Thumb">
-
-                                                        </div>
-                                                </div>
-                                                <div class="col-md-6 info">
-                                                        <h4><?php the_title(); ?></h4>
-                                                    <br>
-                                                    <br>
-
-
-                                                    <?php the_content(); ?>
-
-                                                </div>
-                                        </div>
-                                        <!-- End About -->
-                                </div>
-                        </div>
-                </div>
-                <!-- End Our About -->
+                                <h3 class="sec-title__title bw-split-in-left"><?php the_title(); ?></h3><!-- /.sec-title__title -->
+                            </div><!-- /.sec-title -->
+                            <p class="about-one__content__text">
+                            <?php the_content(); ?>
+                            </p>
+                           
+                        </div><!-- /.why-choose-two__content -->
+                    </div><!-- /.col-lg-6 -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </section><!-- /.about-one -->
 
 
 

@@ -1,151 +1,156 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 
-<!-- Mirrored from themepanthers.com/html/creote-html/home-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 27 Sep 2024 15:47:09 GMT -->
+
+<!-- Mirrored from bracketweb.com/alefox-html/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 27 Sep 2024 21:24:09 GMT -->
 <head>
-   <meta charset="utf-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-  
-   <!-- Fav Icon -->
-   <link rel="icon" href="<?php bloginfo('template_directory'); ?>/assets/images/favicon.ico" type="image/x-icon">
-   <!-- Fav Icon -->
-   <!-- Google Fonts -->
-   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Spartan%3A400%2C500%2C600%2C700%2C800%2C900%7CInter%3A300%2C400%2C500%2C600%2C700%2C800%2C900&amp;subset=latin%2Clatin-ext' type='text/css' media='all' />
-   <!-- Google Fonts -->
-  
-   <!-- Style -->
-   <link rel='stylesheet' href='<?php bloginfo('template_directory'); ?>/assets/css/bootstrap.min.css' type='text/css' media='all' />
-   <link rel='stylesheet' href='<?php bloginfo('template_directory'); ?>/assets/css/owl.css' type='text/css' media='all' />
-   <link rel='stylesheet' href='<?php bloginfo('template_directory'); ?>/assets/css/swiper.min.css' type='text/css' media='all' />
-   <link rel='stylesheet' href='<?php bloginfo('template_directory'); ?>/assets/css/jquery.fancybox.min.css' type='text/css' media='all' />
-   <link rel='stylesheet' href='<?php bloginfo('template_directory'); ?>/assets/css/icomoon.css' type='text/css' media='all' />
-   <link rel='stylesheet' href='<?php bloginfo('template_directory'); ?>/assets/css/flexslider.css' type='text/css' media='all' />
-   <link rel='stylesheet' href='<?php bloginfo('template_directory'); ?>/assets/css/font-awesome.min.css' type='text/css' media='all' />
-   <link rel='stylesheet' href='<?php bloginfo('template_directory'); ?>/assets/css/style.css' type='text/css' media='all' />
-   <link rel='stylesheet' href='<?php bloginfo('template_directory'); ?>/assets/css/scss/elements/theme-css.css' type='text/css' media='all' />
-   <link rel='stylesheet' id="creote-color-switcher-css" href='<?php bloginfo('template_directory'); ?>/assets/css/scss/elements/color-switcher/color.css' type='text/css' media='all' />
-   <link href="<?php bloginfo('template_directory'); ?>/assets/css/mystyles.css" rel="stylesheet" />
-    
-  
-   <!-- Style-->
-   <!----woocommerce---->
-   <link rel='stylesheet' href='<?php bloginfo('template_directory'); ?>/assets/css/woocommerce-layout.css' type='text/css' media='all' />
-   <link rel='stylesheet' href='<?php bloginfo('template_directory'); ?>/assets/css/woocommerce.css' type='text/css' media='all' />
-   <!----woocommerce---->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ 
+    <!-- favicons Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="<?php bloginfo('template_directory'); ?>/assets/images/favicons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="<?php bloginfo('template_directory'); ?>/assets/images/favicons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php bloginfo('template_directory'); ?>/assets/images/favicons/favicon-16x16.png" />
+    <link rel="manifest" href="<?php bloginfo('template_directory'); ?>/assets/images/favicons/site.webmanifest" />
+    <meta name="description" content="Alefox is a modern HTML Template for agriculture field, farm, farmers, eco solutions and organic food products. Alefox HTML Template perfectly fit for all the green initiatives of the farming communities websites and businesses." />
 
-   <?php wp_head(); ?>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;family=Rubik:ital,wght@0,300..900;1,300..900&amp;display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/vendors/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/vendors/bootstrap-select/bootstrap-select.min.css" />
+    <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/vendors/animate/animate.min.css" />
+    <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/vendors/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/vendors/icofont/icofont.min.css" />
+    <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/vendors/jquery-ui/jquery-ui.css" />
+    <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/vendors/jarallax/jarallax.css" />
+    <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css" />
+    <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/vendors/nouislider/nouislider.min.css" />
+    <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/vendors/nouislider/nouislider.pips.css" />
+    <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/vendors/tiny-slider/tiny-slider.css" />
+    <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/vendors/slick/slick.css">
+    <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/vendors/alefox-icons/style.css" />
+    <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/vendors/owl-carousel/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/vendors/owl-carousel/css/owl.theme.default.min.css" />
+
+    <!-- template styles -->
+    <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/alefox.css" />
+    <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/mystyles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+
+
+<?php wp_head(); ?>
 </head>
-<body class="home theme-creote page-home-default-one">
-   <div id="page" class="page_wapper hfeed site">
-   
-      <div id="wrapper_full" class="content_all_warpper">
-        
-         
-         <!----header----->
-         <div class="header_area " id="header_contents">
-            <div class="top_bar style_one">
-               <div class="auto-container">
-                  <div class="row">
-                     <div class="col-lg-12">
-                        <div class="top_inner">
-                           <div class="left_side common_css">
-                              <div class="contntent address">
-                                 <i class="icon-placeholder"></i>
-                                 <div class="text">
-                                    <small>Adresse</small>
-                                    <span>ABIDJAN TREICHVILLE, RUE 25, AVENUE 23, LOT 534.
-05BP457 Abidjan 05
-</span>
-                                 </div>
-                              </div>
-                              <div class="contntent email">
-                                 <i class="icon-email"></i>
-                                 <div class="text">
-                                    <small>Email</small>
-                                    <a href="mailto:contact@coolemballage.com">contact@coolemballage.com</a>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="right_side common_css">
-                              <div class="contntent phone">
-                                 <i class="icon-phone-call"></i>
-                                 <div class="text">
-                                    <small>Télephone</small>
-                                    <a href="tel:+9806071234">+225 07 77 22 77 48</a>
-                                 </div>
-                              </div>
-                             
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <header class="header header_default style_one style_two_remade get_sticky_header">
-               <div class="auto-container">
-                  <div class="row align-items-center">
-                     <div class="col-lg-2 col-md-9 col-sm-9 col-xs-9 logo_column">
-                        <div class="header_logo_box">
-                           <a href="index.html" class="logo navbar-brand">
-                              <img src="<?php bloginfo('template_directory'); ?>/assets/images/logo-default.png" alt="Cool emballage" class="logo_default">
-                              <img src="<?php bloginfo('template_directory'); ?>/assets/images/logo-default.png" alt="Cool emballage" class="logo__sticky">
-                           </a>
-                        </div>
-                     </div>
-                     <div class="col-lg-10 col-md-3 col-sm-3 col-xs-3 menu_column">
-                        <div class="navbar_togglers hamburger_menu">
-                           <span class="line"></span>
-                           <span class="line"></span>
-                           <span class="line"></span>
-                        </div>
-                        <div class="header_content_collapse">
-                           <div class="header_menu_box">
-                              <div class="navigation_menu">
-                                 <ul id="myNavbar" class="navbar_nav">
-                                    <li
-                                       class="menu-item">
-                                       <a href="<?php bloginfo('url'); ?>/" class="nav-link">
-                                          <span>Accueil </span>
-                                       </a>
-                                      
-                                    </li>
-                                    <li
-                                       class="menu-item">
-                                       <a href="<?php bloginfo('url'); ?>/presentation" class="dropdown-toggle nav-link">
-                                          <span>Présentation</span>
-                                       </a>
-                                     
-                                    </li>
-                                   
-                                    <li
-                                       class="menu-item ">
-                                       <a href="<?php bloginfo('url'); ?>/nos-services" class="dropdown-toggle nav-link">
-                                          <span>Nos services</span>
-                                       </a>
-                                      
-                                    </li>
-                                   
-                                    
-                                 </ul>
-                              </div>
-                           </div>
-                           <div class="header_right_content">
-                              <ul>
-                                
-                                 <li class="header-button">
-                                    <a href="<?php bloginfo('url'); ?>/contact"  rel="" class="theme-btn one"> Contact </a>
-                                 </li>
-                                 <li>
-                                    <button type="button" class="contact-toggler"><i class="icon-bar"></i></button>
-                                 </li>
-                              </ul>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </header>
-            <!-- end of the loop -->
-         </div>
-         <!----header----->
+
+<body class="custom-cursor">
+
+    <div class="custom-cursor__cursor"></div>
+    <div class="custom-cursor__cursor-two"></div>
+
+    <div class="preloader">
+        <div class="preloader__image" style="background-image: url(assets/images/loader.png);"></div>
+    </div>
+    <!-- /.preloader -->
+    <div class="page-wrapper">
+        <div class="topbar-one">
+            <div class="container">
+                <div class="topbar-one__inner">
+                    <ul class="list-unstyled topbar-one__info">
+                        
+                        <li class="topbar-one__info__item" style="color: #fff; ">
+                            <i class="icofont-location-pin topbar-one__info__icon"></i>
+                            ABIDJAN TREICHVILLE, RUE 25, AVENUE 23, LOT 534.
+                            05BP457 Abidjan 05
+                        </li>
+                    </ul><!-- /.list-unstyled topbar-one__info -->
+                    <div class="topbar-one__right"  style="color: #fff; ">
+                        <div class="topbar-one__social">
+
+                            <a href="https://facebook.com/">
+                                <i class="fab fa-facebook-f" aria-hidden="true" style="color: #fff; "></i>
+                                <span class="sr-only">Facebook</span>
+                            </a>
+                           
+                           
+                            <a href="https://instagram.com/">
+                                <i class="fab fa-instagram" aria-hidden="true" style="color: #fff; "></i>
+                                <span class="sr-only">Instagram</span>
+                            </a>
+                        </div><!-- /.topbar-one__social -->
+                        
+                    </div><!-- /.topbar-one__right -->
+                </div><!-- /.topbar-one__inner -->
+            </div><!-- /.container-fluid -->
+        </div><!-- /.topbar-one -->
+
+        <header class="main-header sticky-header sticky-header--normal">
+            <div class="container-fluid">
+                <div class="main-header__inner">
+                    <div class="main-header__logo">
+                        <a href="<?php bloginfo('url'); ?>/">
+                            <img src="<?php bloginfo('template_directory'); ?>/assets/images/logoemballage.png" alt="Alefox HTML" width="147">
+                        </a>
+                    </div><!-- /.main-header__logo -->
+
+                    <nav class="main-header__nav main-menu">
+                        <ul class="main-menu__list">
+
+                            <li class="">
+                                <a href="<?php bloginfo('url'); ?>/">Accueil </a>
+                              
+                            </li>
+
+
+
+                            <li>
+                                <a href="<?php bloginfo('url'); ?>/presentation">Présentation</a>
+                            </li>
+                           
+                            <li>
+                                <a href="<?php bloginfo('url'); ?>/nos-services">Nos services </a>
+                            </li>
+
+                            <li>
+                                <a href="<?php bloginfo('url'); ?>/contact">Contact  </a>
+                            </li>
+                        </ul>
+                    </nav><!-- /.main-header__nav -->
+                    <div class="main-header__right">
+                        <div class="mobile-nav__btn mobile-nav__toggler">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div><!-- /.mobile-nav__toggler -->
+                        
+                        <div class="main-header__right__border"></div>
+                        <div class="main-header__call">
+                            <div class="main-header__call__icon"><span class="icon-phone-call-two"></span></div>
+                            <div class="main-header__call__title">Nous joindre :</div>
+                            <a class="main-header__call__text" href="tel:+225 07 77 22 77 48">+225 07 77 22 77 48</a>
+                        </div><!-- /. main-header__info -->
+                    </div><!-- /.main-header__right -->
+                </div><!-- /.main-header__inner -->
+            </div><!-- /.container-fluid -->
+        </header><!-- /.main-header -->
+
